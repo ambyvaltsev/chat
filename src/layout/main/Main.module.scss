@@ -1,0 +1,11 @@
+@import "../../app/styles/vars";
+.container {
+  background-color: var(--black-85);
+  min-height: calc(100vh - var(--header-height));
+  padding-top: 25px;
+  .content {
+    @include content;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+  }
+}

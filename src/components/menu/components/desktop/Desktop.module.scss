@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  .list {
+
+    .list__item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: var(--text-grey);
+      font-size: 15px;
+      padding: 5px 0;
+      .item__icon {
+        height: 20px;
+      }
+    }
+  }
+}

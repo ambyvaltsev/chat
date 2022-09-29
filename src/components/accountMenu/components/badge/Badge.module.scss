@@ -1,0 +1,32 @@
+.container {
+  cursor: pointer;
+  width: 80px;
+  height: var(--header-height);
+  display: flex;
+  &:hover {
+    background-color: var(--grey-600);
+  }
+  .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    .avatar__wrapper {
+      overflow: hidden;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      filter: grayscale(100%) brightness(0.73) invert(1) contrast(1.4);
+    }
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: unset;
+    font-size: 16px;
+    color: var(--grey-400);
+    font-weight: 600;
+  }
+}
